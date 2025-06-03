@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     box-sizing: border-box;
@@ -194,4 +195,28 @@ header a{
 #textoDireita h5{
     font-weight: 500;
     color: #777777;
+}
+#pagina3{
+    height: 93vh;
+    width: 100%;
+}
+#serviceArea{
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#textoServiceArea{
+    height: 30vh;
+    width: 70%;
+    color: rgb(0, 0, 0);
+}
+#serviceItem{
+    width: 25%;
+    border: solid 1px black;
+}
+#seviceItem a{
+    text-decoration: none;
+    color: #222222;
+    font-size: 18px;
 }
