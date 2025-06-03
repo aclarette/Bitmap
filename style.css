@@ -1,4 +1,5 @@
 
+
 *{
     margin: 0;
     box-sizing: border-box;
@@ -197,26 +198,91 @@ header a{
     color: #777777;
 }
 #pagina3{
-    height: 93vh;
+    height: 50vh;
     width: 100%;
 }
-#serviceArea{
-    justify-content: center;
+#pagina4{
+    height: 90vh;
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
+    
+    text-align: center;
+}
+#serviceArea{
+  width: 100%;
 }
 #textoServiceArea{
     height: 30vh;
-    width: 70%;
+    
     color: rgb(0, 0, 0);
+    display: flex;
+    padding-top: 5%;
+    flex-direction: column;
 }
-#serviceItem{
-    width: 25%;
-    border: solid 1px black;
+#textoServiceArea h2{
+    font-size: 36px;
+    font-weight: 600;
+    color: #222222;
+
 }
-#seviceItem a{
+#textoServiceArea p{
+    font-size: 14px;
+    color: #777777;
+    font-weight: 300;
+}
+.quadrados{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 20vh;
+    width: 360px;
+    border: solid 0.5px #fcda002d;
+    transition: 0.3s;
+}
+.p{
+    font-weight: 300;
+    margin-top: 4%;
+    color: #777777;
+    font-size: 14px;
+}
+.btn{
     text-decoration: none;
     color: #222222;
     font-size: 18px;
+}
+.btn h4{
+    font-weight: 600;
+}
+#tudo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 60%;
+    margin-left: 20%;
+}
+.quadrados:hover{
+    background-color: #fcda00;
+}
+.bntPadrao{
+    height: 6vh;
+    width: 20%;
+    line-height: 6vh;
+    background-color: #fcdc00;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+#fotosFinais{
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+}
+#fotosFinais img{
+    margin: 0;
 }
