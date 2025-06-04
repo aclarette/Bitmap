@@ -1,5 +1,6 @@
 
 
+
 *{
     margin: 0;
     box-sizing: border-box;
@@ -202,7 +203,7 @@ header a{
     width: 100%;
 }
 #pagina4{
-    height: 90vh;
+   
     width: 100%;
     
     text-align: center;
@@ -285,4 +286,32 @@ header a{
 }
 #fotosFinais img{
     margin: 0;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #04091e;
+    color: white;
+    height: 40vh;
+    width: 100%;
+}
+#aboutMe h3{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 2%;
+}
+#aboutMe p{
+    font-size: 14px;
+    color: #777777;
+}
+#newsLetter h3{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 2%;
+}
+#newsLetter p{
+    font-size: 14px;
+    color: #777777;
 }
