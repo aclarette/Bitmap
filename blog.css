@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    
+}
+#pagina1{
+    height: 90vh;
+    width: 100%;
+    background-image: url(assets/banner-2.jpg);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+   
+}
+header{
+    background-color: rgba(15, 15, 15, 0.568);
+    padding: 0 7%;
+    display: flex;
+    height: 10vh;
+    justify-content: space-between;
+    align-items: center;
+}
+header a{
+    color:white;
+    text-decoration: none;
+
+}
+#barra {
+    width: 70%; 
+    display: flex;
+    justify-content: space-between;
+}
+
+#barra ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 70%;
+}
+#principal{
+    margin-top: 10%;
+    text-align: center;
+}
+#principal h2{
+    color: white;
+    font-size: 60px;
+}
+#principal p{
+    color: white;
+    font-size: 16px;
+    margin-bottom: 2%;
+}
+.btn a{
+    background-color: rgb(255, 255, 255);
+    padding: 0.5% 2%;
+    line-height: 6vh;
+    text-decoration: none;
+    color: black;
+}
+.btn a:hover{
+    background-color: #fcdc00;
+    transition: 0.5s;
+}
+#pagina2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+ 
+}
+#area{
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+    width: 90%;
+  
+}
+#socialLife{
+    background-image: url(assets/cat-post-3.jpg);
+    background-size: cover;
+    width: 20%;
+    height: 25vh;
+    margin-right: 2%;
+
+}
+#politics{
+    background-image: url(assets/cat-post-2.jpg);
+    background-size: cover;
+    width: 20%;
+    height: 25vh;
+    margin-right: 2%;
+}
+#food{
+    background-image: url(assets/cat-post-1.jpg.webp);
+    background-size: cover;
+    width: 20%;
+    height: 25vh;
+}
+.texto{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-left: 4%;
+    background: rgba(34, 34, 34, 0.8);
+    height: 19vh;
+    width: 90%;
+    padding: 3%;
+    margin-top: 5%;
+}
+.texto a{
+    text-decoration: none;
+}
+.texto a h5{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.texto p{
+    color: #fff;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 26px;
+}
+.linha{
+    background: #fff;
+    width: 102%;
+    height: 1px;
+}
+.texto:hover{
+    background-color: #fcda006c;
+}
+.centro{
+    margin-top: 15%;
+}
+.btns{
+    padding-top: 30%;
+    margin-bottom: 7%;
+}
+.btns a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+ 
+}
+.btns span a{
+    color: #fcdc00;
+}
+
+
+ul{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+.info{
+    color: #777777;
+    vertical-align: middle;
+
+    
+}
+
+.i{
+    padding-left: 1%;
+    line-height: 15px;
+}
+.info p:hover{
+    color: #fcdc00;
+    transition: 0.3s;
+}
+h2{
+    font-size: 24px;
+    color: black;
+    font-weight: 600;
+}
+#blogArea{
+  
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#esquerda{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    margin-top: 5%;
+
+}
+.junto{
+    display: flex;
+    flex-direction: column;
+    margin-right: 1%;
+}
+.imagensFinal {
+    width: 80%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+    background-color: #f9f9ff;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+.imagensFinal img {
+    width: 100%;
+    height: 100%;
+    transition: 0.3s;
+
+}
+
+.divImagensFinal {
+    display: flex;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.imagensFinal img:hover {
+    transform: scale(1.05);
+}
+.bntPadrao{
+    height: 6vh;
+    width: 20%;
+    line-height: 6vh;
+    background-color: #fcdc00;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #04091e;
+    color: white;
+    height: 40vh;
+    width: 100%;
+    align-items: center;
+    padding: 0 10%;
+}
+#aboutMe h3{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 2%;
+}
+#aboutMe p{
+    padding-top: 4%;
+    font-size: 14px;
+    color: #777777;
+}
+#aboutMe span{
+    color: #fcda00;
+}
+#newsLetter{
+    width: 40%;
+}
+#newsLetter h3{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 3%;
+}
+#newsLetter p{
+    padding-top: 4%;
+    font-size: 14px;
+    color: #777777;
+}
+#newsLetter>div svg{
+    margin-left: -1%;
+    margin-top: 3%;
+    width: 42px;
+    height: 40px;
+    background-color: #fcda00;
+}
+
+#newsLetter>div{
+    display: flex;
+    flex-direction: row;
+}
+#followMe h3{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5%;
+}
+#followMe p{
+    padding-top: 4%;
+    font-size: 14px;
+    color: #777777;
+}
+#redesSocial{
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-around;
+}
+input{
+    margin-top: 3%;
+    height: 40px;
+    width: 80%;
+    border: none;
+    padding: 0px 15px;
+    font-size: 14px;
+    color: #cccccc;
+    font-weight: 300;
+}

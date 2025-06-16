@@ -1,0 +1,221 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+#pagina1{
+    height: 42vh;
+    width: 100%;
+    background-image: url(assets/home-banner.jpg);
+
+   
+}
+header{
+    background-color: rgba(15, 15, 15, 0.568);
+    padding: 0 7%;
+    display: flex;
+    height: 10vh;
+    justify-content: space-between;
+    align-items: center;
+}
+header a{
+    color:white;
+    text-decoration: none;
+
+}
+#barra {
+    width: 70%; 
+    display: flex;
+    justify-content: space-between;
+}
+
+#barra ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 70%;
+}
+#principal{
+    text-align: center;
+}
+#principal h2{
+    font-weight: bold;
+    color: #fff;
+    font-size: 48px;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 15px;
+    padding-top: 60px;
+   
+}
+#btn a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5s;
+}
+#btn a:hover{
+    color: #fcda00;
+}
+#pagina2{
+    background-color: #f9f9ff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 0% 5%;
+    padding-top: 6%;
+    flex-direction: column;
+   
+}
+#botoesPagina2{
+    border: solid 1px #fcda002d;
+    height: 6vh;
+    width: 60%;
+    margin-bottom: 3%;
+}
+#botoesPagina2 a{
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 5;
+    text-align: center;
+    display: inline-block;
+    height: 6vh;
+    width: 11%;
+    text-decoration: none;
+    color:black;
+    border: solid 0.5px #fcda002d;
+    transition: 0.4s;
+    padding: 0 2%;
+}
+#botoesPagina2 a:hover{
+    background-color: #fcdc00;
+}
+#galeria{
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.galeriaItem{
+    width: 25%;
+}
+#galeria img{
+    padding: 11px 8px;
+}
+#galeria a{
+    height: 4vh;
+    width: 12%;
+    line-height: 4vh;
+    background-color: #fcdc00;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 8%;
+}
+.bntPadrao{
+    height: 6vh;
+    width: 15%;
+    line-height: 6vh;
+    background-color: #fcdc00;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 8%;
+}#fotosFinais{
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+}
+#fotosFinais img{
+    margin: 0;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #04091e;
+    color: white;
+    height: 40vh;
+    width: 100%;
+    align-items: center;
+    padding: 0 10%;
+}
+#aboutMe h3{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 2%;
+}
+#aboutMe p{
+    padding-top: 4%;
+    font-size: 14px;
+    color: #777777;
+}
+#aboutMe span{
+    color: #fcda00;
+}
+#newsLetter{
+    width: 40%;
+}
+#newsLetter h3{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 3%;
+}
+#newsLetter p{
+    padding-top: 4%;
+    font-size: 14px;
+    color: #777777;
+}
+#newsLetter>div svg{
+    margin-left: -1%;
+    margin-top: 3%;
+    width: 42px;
+    height: 40px;
+    background-color: #fcda00;
+}
+
+#newsLetter>div{
+    display: flex;
+    flex-direction: row;
+}
+#followMe h3{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5%;
+}
+#followMe p{
+    padding-top: 4%;
+    font-size: 14px;
+    color: #777777;
+}
+#redesSocial{
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-around;
+}
+input{
+    margin-top: 3%;
+    height: 40px;
+    width: 80%;
+    border: none;
+    padding: 0px 15px;
+    font-size: 14px;
+    color: #cccccc;
+    font-weight: 300;
+}	

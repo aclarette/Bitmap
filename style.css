@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+#pagina1{
+    height: 93vh;
+    width: 100%;
+    background-image: url(assets/home-banner.jpg);
+   
+}
+header{
+    background-color: rgba(15, 15, 15, 0.568);
+    padding: 0 7%;
+    display: flex;
+    height: 10vh;
+    justify-content: space-between;
+    align-items: center;
+}
+header img{
+    height: 3vh;
+}
+
+header a{
+    color:white;
+    text-decoration: none;
+
+}
+#barra {
+    width: 70%; 
+    display: flex;
+    justify-content: space-between;
+}
+
+#barra ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 70%;
+}
+
+#principal {
+
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner{
+    position: relative;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 236px;
+    width: 555px;
+    padding: 2% 2%  ;
+}
+#banner a{
+    transform: translate(-50%,-50%);
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    bottom: -20%;
+    height: 5vh;
+    line-height: 3.5;
+    width: 30%;
+    background-color: #fcdc00;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+#banner h2{
+    font-weight: 200;
+    margin-bottom: 4%;
+    margin-top: 2%;
+    font-size: 36px;
+}
+#banner p{
+    font-weight: 300;
+}
+#pagina2{
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 0% 5%;
+    padding-top: 6%;
+    flex-direction: column;
+   
+}
+#botoesPagina2{
+    border: solid 1px #fcda002d;
+    height: 6vh;
+    width: 60%;
+    margin-bottom: 3%;
+}
+#botoesPagina2 a{
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 5;
+    text-align: center;
+    display: inline-block;
+    height: 6vh;
+    width: 11%;
+    text-decoration: none;
+    color:black;
+    border: solid 0.5px #fcda002d;
+    transition: 0.4s;
+    padding: 0 2%;
+}
+#botoesPagina2 a:hover{
+    background-color: #fcdc00;
+}
+#galeria{
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.galeriaItem{
+    width: 25%;
+}
+#galeria img{
+    padding: 11px 8px;
+}
+#galeria a{
+    height: 4vh;
+    width: 12%;
+    line-height: 4vh;
+    background-color: #fcdc00;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 8%;
+}	
+#pagina3{
+    background-color: #fcda00;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 12%;
+    align-items: center;
+}
+#esquerda{
+    width: 50%;
+}
+#esquerda h1{
+    font-size: 36px;
+    font-weight: bold;
+}
+#esquerda p{
+    font-size: 13px;
+    font-weight: 300;
+    margin-top: 2%;
+}
+#direita img{
+    vertical-align: bottom;
+    height: 9vh;
+}
+#direita{
+    padding: 3.5% 3.5%;
+    height: 25vh;
+    justify-content: space-between;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+}
+#textoDireita{
+    height: 30vh;
+    width: 70%;
+    color: rgb(0, 0, 0);
+}
+#textoDireita P{
+    font-size: 14px;
+    line-height: 24px;
+    color: #777777;
+}
+#textoDireita h3{
+    padding: 2% 0;
+}
+#textoDireita h5{
+    font-weight: 500;
+    color: #777777;
+}
+#pagina3{
+    height: 50vh;
+    width: 100%;
+}
+#pagina4{
+    width: 100%;
+    text-align: center;
+}
+#serviceArea{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#textoServiceArea{
+    height: 30vh;
+    
+    color: rgb(0, 0, 0);
+    display: flex;
+    padding-top: 5%;
+    flex-direction: column;
+}
+#textoServiceArea h2{
+    font-size: 36px;
+    font-weight: 600;
+    color: #222222;
+
+}
+#textoServiceArea p{
+    font-size: 14px;
+    color: #777777;
+    font-weight: 300;
+}
+.quadrados{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 20vh;
+    width: 360px;
+    border: solid 0.5px rgba(0, 0, 0, 0.18);
+    transition: 0.3s;
+    margin: 10px;
+}
+.p{
+    font-weight: 300;
+    margin-top: 4%;
+    color: #777777;
+    font-size: 14px;
+}
+.btn{
+    text-decoration: none;
+    color: #222222;
+    font-size: 18px;
+}
+.btn h4{
+    font-weight: 600;
+}
+#tudo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    width: 70%;
+   
+}
+.quadrados:hover{
+    background-color: #fcda00;
+}
+.bntPadrao{
+    height: 6vh;
+    width: 20%;
+    line-height: 6vh;
+    background-color: #fcdc00;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+#fotosFinais{
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+}
+#fotosFinais img{
+    margin: 0;
+}
+
+.divFotos{
+    overflow: hidden;
+}
+
+#fotosFinais img{
+    width: 100%;
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    height: 100%;
+}
+
+.divFotos img:hover{
+    transform: scale(1.1); 
+    -webkit-transform: scale(1.1);
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #04091e;
+    color: white;
+    height: 40vh;
+    width: 100%;
+    align-items: center;
+    padding: 0 10%;
+}
+#aboutMe h3{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 2%;
+}
+#aboutMe p{
+    padding-top: 4%;
+    font-size: 14px;
+    color: #777777;
+}
+#aboutMe span{
+    color: #fcda00;
+}
+#newsLetter{
+    width: 40%;
+}
+#newsLetter h3{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 3%;
+}
+#newsLetter p{
+    padding-top: 4%;
+    font-size: 14px;
+    color: #777777;
+}
+#newsLetter>div svg{
+    margin-left: -1%;
+    margin-top: 3%;
+    width: 42px;
+    height: 40px;
+    background-color: #fcda00;
+}
+
+#newsLetter>div{
+    display: flex;
+    flex-direction: row;
+}
+#followMe h3{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5%;
+}
+#followMe p{
+    padding-top: 4%;
+    font-size: 14px;
+    color: #777777;
+}
+#redesSocial{
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-around;
+}
+input{
+    margin-top: 3%;
+    height: 40px;
+    width: 80%;
+    border: none;
+    padding: 0px 15px;
+    font-size: 14px;
+    color: #cccccc;
+    font-weight: 300;
+}
