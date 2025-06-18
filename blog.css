@@ -72,7 +72,7 @@ header a{
     display: flex;
     justify-content: center;
     margin-top: 4%;
-    width: 90%;
+
   
 }
 #socialLife{
@@ -249,6 +249,276 @@ h2{
     margin-top: 8%;
     margin-bottom: 8%;
 }
+
+
+
+.informacoes {
+    width: 18%;
+    margin-top: 2%;
+    padding: 1%;
+    height: 250vh;
+    border: 1px solid rgba(0, 0, 0, 0.07);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.informacoes h1 {
+    font-size: 18px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    background-color: #fcdc00;
+    height: 4.5vh;
+    line-height: 2.3;
+    font-weight: 600;
+    margin-bottom: 8%;
+}
+
+
+
+.inputBlog {
+    background-color: #fcdc00;
+    width: 100%;
+    height: 4vh;
+    border-radius: 43px;
+    border: none;
+    outline: none;
+    padding-left: 6%;
+    font-weight: 300;
+    font-size: 14px;
+    color: #5b5b5b;
+    margin-bottom: 4%;
+}
+
+.separador {
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+    margin-top: 4%;
+    margin-bottom: 8%;
+    height: 2vh;
+}
+
+
+
+
+.divDono {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.divDono h2 {
+    font-size: 18px;
+    color: black;
+    margin-top: 16%;
+    font-weight: 600;
+}
+
+.divDono h4 {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.54);
+    font-weight: 300;
+    margin-bottom: 2%;
+    line-height: 1.8;
+}
+
+.divDono > div {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.popularPosts {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 6%;
+}
+
+.popularPosts img {
+    margin-right: 7%;
+}
+
+.popularTexto h2 {
+    font-size: 14px;
+}
+
+.popularTexto h4 {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.54);
+    font-weight: 300;
+    line-height: 1.7;
+    margin-top: 2%;
+}
+
+.imagemNada {
+    width: 100%;
+}
+
+.textoRiscado {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 2px dotted rgba(199, 199, 199, 0.39);
+    padding-bottom: 3%;
+    margin-bottom: 6%;
+}
+
+.textoRiscado h4 {
+    color: #8e8e8e;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.newsletter {
+    text-align: center;
+}
+
+.newsletter h4 {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 300;
+    margin-bottom: 2%;
+}
+
+.newsletter h5{
+    font-size: 12px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.6);
+
+}
+
+.inputDiretaBlog {
+    display: flex;
+    width: 100%;
+    position: relative;
+    margin-bottom: 4%;
+}
+
+.inputDiretaBlog > input {
+    height: 40px;
+    width: 65%;
+    font-size: 12px;
+    padding-left: 12%;
+    border: none;
+    outline: none;
+    color: black;
+}
+
+.inputDiretaBlog > button {
+    font-weight: 500;
+    height: 40px;
+    width: 35%;
+    font-size: 12px;
+    background-color: #fcdc00;
+    text-transform: none;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    line-height: normal;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.inputDiretaBlog i {
+    color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    left: 3%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.tags {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 4%;
+}
+
+.botaoTag {
+    background-color: #ffffff;
+    height: 3vh;
+    border: 1px solid rgba(0, 0, 0, 0.07);
+    line-height: 2.3;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.78);
+    text-decoration: none;
+    font-weight: 300;
+    padding: 0 4%;
+    margin-right: 2%;
+    margin-bottom: 2.5%;
+}
+
+
+
+
+
+
+
+.direita {
+    display: flex;
+    flex-direction: column;
+    width: 74%;
+}
+
+.direita img {
+    width: 100%;
+}
+
+.direita h1{
+    font-weight: 600;
+    color: black;
+    margin-top: 5%;
+    font-size: 20px;
+}
+
+.direita h4 {
+    color: rgba(0, 0, 0, 0.54);
+    margin-top: 1%;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.7;
+    margin-bottom: 4%;
+}
+
+
+.botaoBlog {
+    background-color: white;
+    width: 25%;
+    font-size: 14px;
+    height: 4.5vh;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 7%;
+
+}
+
+input{
+    margin-top: 3%;
+    height: 40px;
+    width: 80%;
+    border: none;
+    padding: 0px 15px;
+    font-size: 14px;
+    color: #cccccc;
+    font-weight: 300;
+}
+
+
 footer{
     display: flex;
     justify-content: space-around;
@@ -314,14 +584,4 @@ footer{
     margin-top: 3%;
     display: flex;
     justify-content: space-around;
-}
-input{
-    margin-top: 3%;
-    height: 40px;
-    width: 80%;
-    border: none;
-    padding: 0px 15px;
-    font-size: 14px;
-    color: #cccccc;
-    font-weight: 300;
 }
